@@ -42,7 +42,9 @@ profiles:
 
 education:
   - area: BEng Electronic Information Engineering
-    institution: University of Electronic Science and Technology of China & University of Glasgow
+    institution: |
+      University of Electronic Science and Technology of China
+      & University of Glasgow
     date_start: 2021-09-01
     date_end: 2025-07-01
     summary: |
@@ -59,11 +61,12 @@ education:
       - Application and Design of Digital Logic (94)
   
       
-Research Experience:
-  - position: Director of Cloud Infrastructure
+research:
+  - position: Undergraduate Research Assistant
     company_name: GenCoin
     company_url: ''
     company_logo: ''
+    Advisor: Prof. Cheng Wang
     date_start: 2021-01-01
     date_end: ''
     summary: |2-
