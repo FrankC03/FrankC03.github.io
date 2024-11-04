@@ -11,7 +11,7 @@ last_name: Cui
 
 # Status emoji
 status:
-  icon: 🎡
+  icon: 📸
 
 # Is this the primary user of the site?
 superuser: true
@@ -30,10 +30,10 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: '2021190501008@std.uestc.edu.cn'
+    url: 'mailto:2021190501008@std.uestc.edu.cn'
     label: E-mail Me(UESTC)
   - icon: at-symbol
-    url: '2720706c@student.gla.ac.uk'
+    url: 'mailto:2720706c@student.gla.ac.uk'
     label: E-mail Me(UofG)
   - icon: brands/github
     url: https://github.com/FrankC03
