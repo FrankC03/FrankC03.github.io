@@ -43,8 +43,8 @@ profiles:
 education:
   - area: BEng Electronic Information Engineering
     institution: University of Electronic Science and Technology of China & University of Glasgow
-    date_start: 2021-09
-    date_end: 2025-07
+    date_start: 2021-09-01
+    date_end: 2025-07-01
     summary: |
       GPA: 3.91/4.0
       Weighted Average: 89.87/100
