@@ -40,7 +40,7 @@ profiles:
   - icon: custom/phone-call
     label: +86 13855116835
 
-education:
+edu:
   - area: BEng Electronic Information Engineering
     institution: |
       University of Electronic Science and Technology of China
