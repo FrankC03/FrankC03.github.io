@@ -61,7 +61,7 @@ education:
       - Application and Design of Digital Logic (94)
   
       
-research:
+researcha:
   - position: Undergraduate Research Assistant
     company_name: GenCoin
     company_url: ''
