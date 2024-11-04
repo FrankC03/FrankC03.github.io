@@ -78,6 +78,7 @@ research:
     company_name: X
     company_url: ''
     company_logo: ''
+    advisor: ''
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
