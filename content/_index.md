@@ -25,8 +25,7 @@ sections:
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
-  - block: research experience
-    id: section-r
+  - block: 'github.FrankC03.research'
     content:
       title: Research Experience
       username: admin
