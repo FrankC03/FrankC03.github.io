@@ -26,7 +26,7 @@
 <!-- Need Gap >= 3 when flex-row due to negative margin on cols (-start-3) -->
 <div class="flex flex-col lg:gap-x-6 w-100 px-6 sm:px-0 {{ if $is_education_first }}flex-col-reverse{{end}}">
 
-{{ if $person.work }}
+{{ if $person.research }}
 <div class="w-full">
   <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ i18n "research" | default "Research" }}</h3>
   <ol class="relative border-s border-gray-200 dark:border-gray-700">
