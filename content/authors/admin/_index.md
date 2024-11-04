@@ -66,7 +66,7 @@ research:
     company_name: GenCoin
     company_url: ''
     company_logo: ''
-    Advisor: Prof. Cheng Wang
+    advisor: Prof. Cheng Wang
     date_start: 2021-01-01
     date_end: ''
     summary: |2-
