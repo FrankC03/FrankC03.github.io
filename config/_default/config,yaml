@@ -1,4 +1,0 @@
-module:
-  imports:
-    # Your block's GitHub URL (replace <USERNAME> and <COLLECTION-NAME> with your GitHub username and block collection name)
-    - path: github.com/FrankC03/hugo-blox-research
