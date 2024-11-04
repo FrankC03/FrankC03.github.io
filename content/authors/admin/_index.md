@@ -1,77 +1,65 @@
 ---
 # Display name
-title: 吳健雄
+title: 崔逸飞
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Cui Yifei
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Yifei 
+last_name: Cui
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🎡
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: PhD Applicant in Electrical and Electronic Engineering
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: University of Electronic Science and Technology of China 
+    url: https://www.uestc.edu.cn/
+  - name: University of Glasgow
+    url: https://www.gla.ac.uk/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: '2021190501008@std.uestc.edu.cn'
+    label: E-mail Me(UESTC)
+  - icon: at-symbol
+    url: '2720706c@student.gla.ac.uk'
+    label: E-mail Me(UofG)
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://github.com/FrankC03
+  - icon: custom/phone-call
+    label: +86 13855116835
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BEng Electronic Information Engineering
+    institution: University of Electronic Science and Technology of China & University of Glasgow
+    date_start: 2021-09
+    date_end: 2025-07
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      GPA: 3.91/4.0
+      Weighted Average: 89.87/100
+      Ranking: 4/247(1.6%)
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      - Embedded Processors (99)
+      - Electronic Devices (99)
+      - Microelectronic Systems (99)
+      - Circuit Analysis and Design (99)
+      - Artificial Intelligence and Machine Learning (95)
+      - Application and Design of Digital Logic (94)
+  
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
+Research Experience:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
     company_url: ''
@@ -169,4 +157,4 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+Electrical Engineering undergraduate with research experience in quantum noise model design under the supervision of Prof. Cheng Wang, actively pursuing a PhD position for 2025.
