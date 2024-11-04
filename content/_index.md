@@ -27,7 +27,6 @@ sections:
         style: 'text-align: justify; font-size: 0.8em;'
   - block: research
     content:
-      title: Research Experience
       username: admin
     design:
       # Hugo date format
