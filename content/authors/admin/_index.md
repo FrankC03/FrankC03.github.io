@@ -43,14 +43,12 @@ profiles:
 edu:
   - area: BEng Electronic Information Engineering
     institution: |
-      University of Electronic Science and Technology of China (UESTC)
+      University of Electronic Science and Technology of China (UESTC)<br>
       & University of Glasgow
     date_start: 2021-09-01
     date_end: 2025-07-01
     summary: |
-      GPA: 3.91/4.0<br><br>
-      Weighted Average: 89.87/100<br><br>
-      Ranking: 4/247(1.6%)
+      GPA: 3.91/4.0   Weighted Average: 89.87/100   Ranking: 4/247(1.6%)
 
       Courses included:
       - Embedded Processors (99)
