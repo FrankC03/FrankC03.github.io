@@ -10,31 +10,8 @@
 {{ end }}
 
 
-<style>
-  /* Base styling for the vertical lines */
-  .vertical-line {
-    width: 5px;               /* Thickness of the line */
-    height: 100vh;            /* Full viewport height */
-    position: fixed;          /* Fixed position to stay in place while scrolling */
-    top: 0;                   /* Start at the top of the page */
-    z-index: -1;              /* Places the lines behind other content */
-  }
-
-  /* Left line */
-  .left-line {
-    left: 0;                  /* Align to the left edge */
-    background-color: purple; /* Purple color */
-  }
-
-  /* Right line */
-  .right-line {
-    right: 0;                 /* Align to the right edge */
-    background-color: blue;   /* Blue color */
-  }
-</style>
-<!-- Vertical Lines on Left and Right Margins -->
-<div class="vertical-line left-line"></div>
-<div class="vertical-line right-line"></div>
+<div class="vertical-line left-line" style="position: fixed; top: 0; left: 0; height: 100vh; width: 5px; background-color: purple; z-index: 1000;"></div>
+<div class="vertical-line right-line" style="position: fixed; top: 0; right: 0; height: 100vh; width: 5px; background-color: blue; z-index: 1000;"></div>
 
 <div class="mx-auto flex max-w-screen-xl">
   {{ partial "components/sidebar.html" (dict "context" . "no_sidebar" true) }}
