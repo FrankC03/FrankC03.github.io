@@ -48,7 +48,7 @@ edu:
     date_start: 2021-09-01
     date_end: 2025-07-01
     summary: |
-      GPA: 3.91/4.0   Weighted Average: 89.87/100   Ranking: 4/247(1.6%)
+      GPA: 3.91/4.0&nbsp;&nbsp;&nbsp;&nbsp;Weighted Average: 89.87/100&nbsp;&nbsp;&nbsp;&nbsp;Ranking: 4/247(1.6%)
 
       Courses included:
       - Embedded Processors (99)
