@@ -9,9 +9,7 @@
   {{ end }}
 {{ end }}
 
-<!-- Vertical Lines on Left and Right Margins -->
-<div class="vertical-line left-line"></div>
-<div class="vertical-line right-line"></div>
+
 <style>
   /* Base styling for the vertical lines */
   .vertical-line {
@@ -34,7 +32,9 @@
     background-color: blue;   /* Blue color */
   }
 </style>
-
+<!-- Vertical Lines on Left and Right Margins -->
+<div class="vertical-line left-line"></div>
+<div class="vertical-line right-line"></div>
 
 <div class="mx-auto flex max-w-screen-xl">
   {{ partial "components/sidebar.html" (dict "context" . "no_sidebar" true) }}
