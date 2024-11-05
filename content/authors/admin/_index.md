@@ -84,6 +84,9 @@ research:
     button:
         text: Slides
         url: uploads/slides.pdf
+    button2:
+        text: Code
+        url: 'https://example.com/code'
   
 
 # Skills
