@@ -1,5 +1,8 @@
 {{ define "main" }}
 
+<div class="vertical-line left-line" style="position: fixed; top: 0; left: 0; height: 100vh; width: 5px; background-color: purple; z-index: 1000;"></div>
+<div class="vertical-line right-line" style="position: fixed; top: 0; right: 0; height: 100vh; width: 5px; background-color: blue; z-index: 1000;"></div>
+
 {{ $pub_type_csl := "" }}
 {{ $pub_type_display := "" }}
 {{ if .Params.publication_types }}
@@ -9,9 +12,6 @@
   {{ end }}
 {{ end }}
 
-
-<div class="vertical-line left-line" style="position: fixed; top: 0; left: 0; height: 100vh; width: 5px; background-color: purple; z-index: 1000;"></div>
-<div class="vertical-line right-line" style="position: fixed; top: 0; right: 0; height: 100vh; width: 5px; background-color: blue; z-index: 1000;"></div>
 
 <div class="mx-auto flex max-w-screen-xl">
   {{ partial "components/sidebar.html" (dict "context" . "no_sidebar" true) }}
