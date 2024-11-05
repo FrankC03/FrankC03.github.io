@@ -48,8 +48,8 @@ edu:
     date_start: 2021-09-01
     date_end: 2025-07-01
     summary: |
-      GPA: 3.91/4.0
-      Weighted Average: 89.87/100
+      GPA: 3.91/4.0<br><br>
+      Weighted Average: 89.87/100<br><br>
       Ranking: 4/247(1.6%)
 
       Courses included:
