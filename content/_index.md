@@ -11,7 +11,7 @@ design:
 
 # Page sections
 sections:
-  - block: biography
+  - block: bio
     content:
       username: admin
       # Show a call-to-action button under your biography? (optional)
