@@ -6,8 +6,8 @@
       data-wc-theme-default="{{ (lower site.Params.appearance.mode) | default "system" }}">
   {{ partial "site_head" . }}
   <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
-    <div class="vertical-line left-line" style="position: fixed; top: 100px; left: 0; height: 100vh; width: 25px; background-color: purple; z-index: -1;"></div>
-    <div class="vertical-line right-line" style="position: fixed; top: 100px; right: 0; height: 100vh; width: 25px; background-color: rgb(33, 33, 165); z-index: -1;"></div>
+    <div class="vertical-line left-line" style="position: fixed; top: 0; left: 0; height: 100vh; width: 20px; background-color: rgb(145, 1, 145); z-index: -1;"></div>
+    <div class="vertical-line right-line" style="position: fixed; top: 0; right: 0; height: 100vh; width: 20px; background-color: rgb(33, 33, 165); z-index: -1;"></div>
     <div id="page-bg"></div>
     <div class="page-header {{ if site.Params.header.navbar.fixed_to_top }}sticky top-0 z-30{{ end }}">
       {{/* Load header block */}}
