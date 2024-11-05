@@ -63,8 +63,8 @@ edu:
       
 research:
   - title: Neural Network based Surface Decoder for the Scalable Quantum Error Correction
-    position: Undergraduate Research Assistant
-    company_name: UESTC
+    position: Undergraduate Research Assistant, UESTC
+    company_name: ''
     company_url: 'https://www.uestc.edu.cn/'
     company_logo: ''
     advisor: Prof. Cheng Wang
