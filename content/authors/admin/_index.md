@@ -71,10 +71,17 @@ research:
     date_start: 2023-08-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Quantum computing holds the promise of exponentially faster computation for complex problems, but it faces a significant hurdle: quantum noise. Surface code error correction, a leading approach for handling these errors, becomes computationally intensive for decoding as systems scale. Traditional decoding algorithms, such as Minimum Weight Perfect Matching (MWPM), struggle to balance efficiency and scalability.
+
+      This project focuses on developing a neural network-based surface decoder to address the challenges of scalable quantum error correction. By utilizing machine learning techniques, the decoder aims to provide faster and more accurate error correction, which can significantly improve the reliability of quantum systems as they grow in size and complexity. 
+      
+      Key responsibilities for this project include:
+      Quantum computing holds the promise of exponentially faster computation for complex problems, but it faces a significant hurdle: quantum noise.
+      - Noise Modeling and Simulation: Develop a comprehensive quantum noise model encompassing measurement errors, data qubit idling errors (simulated using parameters T1 and T2), syndrome extraction circuit errors, and qubit leakage errors. [Completed]
+
+      - Noise Model Benchmarking: Compare our noise model against other common error models by evaluating the similarity between the error pair correlation matrices derived from repetition code experiments and simulations. [Near Completion]
+      
+      - Neural Network Design and Benchmarking: Implemente a neural network-based decoder aimed at improving upon traditional MWPM algorithms. [Early Development]
   
 
 # Skills
