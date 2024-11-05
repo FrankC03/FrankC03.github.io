@@ -24,8 +24,9 @@
   {{- $img = $img.Process "webp" -}}
   <div class="w-full bg-gray-200 dark:bg-gray-900 flex flex-wrap items-center justify-center">
     <div class="w-full bg-white rounded dark:bg-gray-800">
-      <div class="w-full">
-        <img class="w-auto"
+      <!-- Set the height to 3/4 using `h-3/4` -->
+      <div class="h-3/4 overflow-hidden w-full flex items-center justify-center">
+        <img class="w-auto h-full object-contain"
              src="{{$img.RelPermalink}}"
              alt="" />
       </div>
