@@ -24,10 +24,9 @@
   {{- $img = $img.Process "webp" -}}
   <div class="w-full bg-gray-200 dark:bg-gray-900 flex flex-wrap items-center justify-center">
     <div class="w-full bg-white rounded dark:bg-gray-800">
-      <div class="h-full sm:h-64 overflow-hidden w-full">
-        <img class="w-full object-cover"
+      <div class="w-full">
+        <img class="w-auto"
              src="{{$img.RelPermalink}}"
-             width="{{$img.Width}}" height="{{$img.Height}}"
              alt="" />
       </div>
     </div>
