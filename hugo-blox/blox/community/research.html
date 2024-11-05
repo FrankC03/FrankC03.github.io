@@ -39,11 +39,13 @@
         <!--          <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">Latest</span>-->
       </h3>
       <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">{{.position}}</span>
-      {{ if .advisor }}
-        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
-          <strong>Advisor:</strong> {{ .advisor }}
-        </span>
+      {{ with .advisor }}
+        <p class="advisor">
+          <strong>Advisor:</strong> 
+          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a>
+        </p>
       {{ end }}
+
       <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">{{.company_name}}</span>
       <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
         {{ if .date_start}}

@@ -65,7 +65,9 @@ research:
     company_name: ''
     company_url: 'https://www.uestc.edu.cn/'
     company_logo: ''
-    advisor: Prof. Cheng Wang
+    advisor:
+      name: "Prof. Cheng Wang"
+      url: "https://example.com/prof-cheng-wang"  # Replace with the actual URL
     date_start: 2023-08-01
     date_end: ''
     summary: |2-
