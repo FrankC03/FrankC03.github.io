@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 崔逸飞
+title: Cui Yifei
 
 # Name pronunciation (optional)
-name_pronunciation: Cui Yifei
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Yifei 
@@ -43,7 +43,7 @@ profiles:
 edu:
   - area: BEng Electronic Information Engineering
     institution: |
-      University of Electronic Science and Technology of China
+      University of Electronic Science and Technology of China (UESTC)
       & University of Glasgow
     date_start: 2021-09-01
     date_end: 2025-07-01
@@ -62,30 +62,20 @@ edu:
   
       
 research:
-  - position: Undergraduate Research Assistant
-    company_name: GenCoin
-    company_url: ''
+  - title: Neural Network based Surface Decoder for the Scalable Quantum Error Correction
+    position: Undergraduate Research Assistant
+    company_name: UESTC
+    company_url: 'https://www.uestc.edu.cn/'
     company_logo: ''
     advisor: Prof. Cheng Wang
-    date_start: 2021-01-01
+    date_start: 2023-08-01
     date_end: ''
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    advisor: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
