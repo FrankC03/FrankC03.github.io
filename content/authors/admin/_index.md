@@ -156,7 +156,6 @@ projects:
     date_end: '2024-06-01'
     awarder: UESTC, Glasgow College
     des: 'Role: Team Leader'
-    icon: edx
     summary: |
       - Completed the main program design using STM32CubeIDE, and realized the task execution and switching via polling and external environment interrupt
 

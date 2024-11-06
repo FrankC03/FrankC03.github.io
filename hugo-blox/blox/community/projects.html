@@ -55,7 +55,7 @@
 
   {{ if eq .img "icon_uofg" }}
     <div class="w-8 h-8 text-gray-500 dark:text-gray-400 mb-3">
-      {{ $icon3_image := $icon_uofg.Fill "42x42 Center" }}
+      {{ $icon3_image := $icon_uofg.Fill "42x63 Center" }}
       <img src="{{ $icon3_image.RelPermalink }}" alt="{{ $person_page.Title }}"
            width="{{ $icon3_image.Width }}" height="{{ $icon3_image.Height }}">
     </div>
@@ -68,7 +68,6 @@
 
   <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
     <p>{{.awarder}}</p>
-    <p>{{.des}}</p>
     <p>{{ if .date_start}}
           {{ (time .date_start) | time.Format ($block.design.date_format | default "January 2006") }} –
         {{ end }}
@@ -77,6 +76,7 @@
         {{else}}
           {{ i18n "present" | default "Present" }}
         {{end}}</p>
+    <p>{{.des}}</p>
   </div>
 
   {{with .summary}}
