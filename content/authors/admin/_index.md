@@ -140,10 +140,11 @@ projects:
     url: ''
     date_start: '2022-01-01'
     date_end: '2022-02-01'
-    awarder: National University of Singapore, NUS, winter program
+    awarder: National University of Singapore
     icon: ''
     summary: |
       -Learned the principles and background of neural networks
+      
       -Realized traffic sign recognition with 97% accuracy on real-world dataset, algorithm using the scikit-learn library and convolutional neural network in the python platform
     button:
         text: Download Certification
