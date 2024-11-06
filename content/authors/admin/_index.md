@@ -175,7 +175,7 @@ projects:
 
       - Designed and simulated using HFSS, and adjusted iteratively according to the results until it meets the design requirements (center frequency: 1.5GHz; Bandwidth: 20MHz; Attenuation: >35dB@ (1520-1540) MHz; Insertion loss: <1dB return loss: >20dB)
 
-awards:
+awrds:
   - title: "National Scholarship (4%, 10000￥)"
     date: "2024-11-01"
   - title: "First-class Scholarship for Outstanding Students of UESTC"
