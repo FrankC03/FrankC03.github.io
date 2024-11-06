@@ -154,7 +154,7 @@ projects:
     img: 'icon_uofg'
     date_start: '2024-02-01'
     date_end: '2024-06-01'
-    awarder: UESTC, Glasgow College
+    awarder: UESTC, Glasgow College, directed by UofG
     des: 'Role: Team Leader'
     summary: |
       - Completed the main program design using STM32CubeIDE, and realized the task execution and switching via polling and external environment interrupt
@@ -167,7 +167,7 @@ projects:
     date_start: '2024-02-01'
     date_end: '2024-06-01'
     awarder: UESTC, Glasgow College
-    des: 'Electromagnetic Field and Microwave Technology Course project'
+    des: 'Electromagnetic Field and Microwave Technology Course Project'
     summary: |
       - Applied cross-coupling technology to increase bandwidth, enhance coupling, and provide additional attenuation
 
