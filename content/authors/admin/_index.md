@@ -150,7 +150,7 @@ projects:
     button:
         text: Download Certification
         url: uploads/Assessment report_CUI YIFEI.pdf
-  - title: An Intelligent Rover Design
+  - title: Intelligent Rover Design
     img: 'icon_uofg'
     date_start: '2024-02-01'
     date_end: '2024-06-01'
