@@ -151,6 +151,7 @@ projects:
         text: Download Certification
         url: uploads/Assessment report_CUI YIFEI.pdf
   - title: An Intelligent Rover Design
+    img: 'icon_uofg'
     date_start: '2024-02-01'
     date_end: '2024-06-01'
     awarder: UESTC, Glasgow College
@@ -163,6 +164,7 @@ projects:
 
       - Used STM32F446RE, McNamum wheel, Openmv Cam, ultrasonic module, DCDC power module, lithium battery and self-designed driven module to realize the hardware welding of the rover, and finally ensure the functions, including line patrol, direction sign and traffic light recognition, pedestrian and obstacle avoidance, wireless switch parking lever
   - title: 'Cross-coupled Cavity Filter Design'
+    img: 'icon_uestc'
     date_start: '2024-02-01'
     date_end: '2024-06-01'
     awarder: UESTC, Glasgow College
