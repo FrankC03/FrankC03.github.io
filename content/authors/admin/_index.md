@@ -154,7 +154,7 @@ projects:
     img: 'icon_uofg'
     date_start: '2024-02-01'
     date_end: '2024-06-01'
-    awarder: UESTC, Glasgow College, directed by UofG
+    awarder: UESTC, Glasgow College, Directed by UofG
     des: 'Role: Team Leader'
     summary: |
       - Completed the main program design using STM32CubeIDE, and realized the task execution and switching via polling and external environment interrupt
@@ -175,7 +175,14 @@ projects:
 
       - Designed and simulated using HFSS, and adjusted iteratively according to the results until it meets the design requirements (center frequency: 1.5GHz; Bandwidth: 20MHz; Attenuation: >35dB@ (1520-1540) MHz; Insertion loss: <1dB return loss: >20dB)
 
-collection:
+awards:
+  - title: "Best Research Paper Award"
+    date: "2023-06-15"
+  - title: "Excellence in Teaching Award"
+    date: "2022-12-10"
+  - title: "Outstanding Student Award"
+    date: "2021-08-01"
+
 ---
 
 Electrical Engineering senior with research experience in quantum noise model design under the supervision of Prof. Cheng Wang, actively pursuing a PhD position for 2025.
