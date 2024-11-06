@@ -144,22 +144,25 @@ projects:
     awarder: National University of Singapore
     icon: ''
     summary: |
-      -Learned the principles and background of neural networks
+      - Learned the principles and background of neural networks
       
-      -Realized traffic sign recognition with 97% accuracy on real-world dataset, algorithm using the scikit-learn library and convolutional neural network in the python platform
+      - Realized traffic sign recognition with 97% accuracy on real-world dataset, algorithm using the scikit-learn library and convolutional neural network in the python platform
     button:
         text: Download Certification
         url: uploads/Assessment report_CUI YIFEI.pdf
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
+  - title: An Intelligent Rover Design
+    url: ''
+    date_start: '2024-02-01'
+    date_end: '2024-06-01'
+    awarder: Team Leader, UESTC, Glasgow College
     icon: edx
     summary: |
       Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+      - Completed the main program design using STM32CubeIDE, and realized the task execution and switching via polling and external environment interrupt
+
+      - Realized visual algorithm with OpenMV and its IDE, adopted H-bridge to design the driver module PCB independently, and finished physical verification
+
+      - Used STM32F446RE, McNamum wheel, Openmv Cam, ultrasonic module, DCDC power module, lithium battery and self-designed driven module to realize the hardware welding of the rover, and finally ensure the functions, including line patrol, direction sign and traffic light recognition, pedestrian and obstacle avoidance, wireless switch parking lever
   - title: 'Object-Oriented Programming in R'
     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
     certificate_url: https://www.datacamp.com
