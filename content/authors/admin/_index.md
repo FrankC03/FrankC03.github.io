@@ -162,14 +162,16 @@ projects:
       - Realized visual algorithm with OpenMV and its IDE, adopted H-bridge to design the driver module PCB independently, and finished physical verification
 
       - Used STM32F446RE, McNamum wheel, Openmv Cam, ultrasonic module, DCDC power module, lithium battery and self-designed driven module to realize the hardware welding of the rover, and finally ensure the functions, including line patrol, direction sign and traffic light recognition, pedestrian and obstacle avoidance, wireless switch parking lever
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
+  - title: 'Cross-coupled Cavity Filter Design'
     date: '2023-01-21'
     awarder: datacamp
     icon: datacamp
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      - Applied cross-coupling technology to increase bandwidth, enhance coupling, and provide additional attenuation
+
+      - Determined the filter topology by simulating filter parameters with CoupleFil
+
+      - Designed and simulated using HFSS, and adjusted iteratively according to the results until it meets the design requirements (center frequency: 1.5GHz; Bandwidth: 20MHz; Attenuation: >35dB@ (1520-1540) MHz; Insertion loss: <1dB return loss: >20dB)
 
 collection:
 ---
