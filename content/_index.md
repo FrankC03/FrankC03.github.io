@@ -37,7 +37,7 @@ sections:
     content:
       title: Projects
       username: admin
-  - block: awards
+  - block: awrds
     content:
       title: Awards
       username: admin
