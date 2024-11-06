@@ -27,6 +27,9 @@
       {{ range $idx, $award := sort $awards ".date" "desc" }}
         <div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           
+          <!-- Make the title font smaller with text-lg or text-base -->
+          <h5 class="mb-2 text-base font-semibold tracking-tight text-gray-900 dark:text-white">{{ $award.title | markdownify | emojify }}</h5>
+
           <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
             {{ if $award.date }}
               {{ (time $award.date) | time.Format ($block.design.date_format | default "January 2006") }}
