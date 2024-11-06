@@ -44,7 +44,7 @@ edu:
   - area: BEng Electronic Information Engineering
     institution: |
       University of Electronic Science and Technology of China (UESTC)<br>
-      & University of Glasgow
+      Glasgow College, jointly held by the University of Glasgow
     date_start: 2021-09-01
     date_end: 2025-07-01
     summary: |
@@ -67,7 +67,7 @@ research:
     company_logo: ''
     advisor:
       name: "Prof. Cheng Wang"
-      url: "https://example.com/prof-cheng-wang"  # Replace with the actual URL
+      url: "https://faculty.uestc.edu.cn/wangcheng/zh_CN/index/418338/list/index.htm"  # Replace with the actual URL
     date_start: 2023-08-01
     date_end: ''
     summary: |2-
@@ -80,7 +80,7 @@ research:
 
       - Noise Model Benchmarking: Compare our noise model against other common error models by evaluating the similarity between the error pair correlation matrices derived from repetition code experiments and simulations. [Near Completion]
       
-      - Neural Network Design and Benchmarking: Based on the designed noise model, implement a neural network-based decoder aimed at improving upon traditional MWPM algorithm[Early Development]
+      - Neural Network Design and Benchmarking: Based on the designed noise model, implement a neural network-based decoder aimed at improving upon traditional MWPM algorithm. [Early Development]
     button:
         text: Slides
         url: uploads/slides.pdf
@@ -124,12 +124,12 @@ skills:
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
+    percent: 100
+  - name: English
     percent: 75
-  - name: Portuguese
-    percent: 25
+
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -161,6 +161,8 @@ projects:
     icon: datacamp
     summary: |
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+
+collection:
 ---
 
 Electrical Engineering senior with research experience in quantum noise model design under the supervision of Prof. Cheng Wang, actively pursuing a PhD position for 2025.
