@@ -176,12 +176,26 @@ projects:
       - Designed and simulated using HFSS, and adjusted iteratively according to the results until it meets the design requirements (center frequency: 1.5GHz; Bandwidth: 20MHz; Attenuation: >35dB@ (1520-1540) MHz; Insertion loss: <1dB return loss: >20dB)
 
 awards:
-  - title: "Best Research Paper Award"
-    date: "2023-06-15"
-  - title: "Excellence in Teaching Award"
-    date: "2022-12-10"
-  - title: "Outstanding Student Award"
-    date: "2021-08-01"
+  - title: "National Scholarship (4%, 10000￥)"
+    date: "2024-11-01"
+  - title: "First-class Scholarship for Outstanding Students of UESTC"
+    date: "2024-12-01"
+  - title: "First-class Scholarship for Outstanding Students of UESTC"
+    date: "2023-12-01"
+  - title: "First-class Scholarship for Outstanding Students of UESTC"
+    date: "2022-12-01"
+  - title: "Finalist Prize in the Mathematical Contest In Modeling & Interdisciplinary Contest In Modeling (2%)"
+    date: "2023-05-01"
+  - title: "Academic Performance Scholarship, Glasgow College (5%, 30000￥)"
+    date: "2024-12-01"
+  - title: "Academic Performance Scholarship, Glasgow College (5%, 30000￥)"
+    date: "2023-12-01"  
+  - title: "Academic Performance Scholarship, Glasgow College (5%, 30000￥)"
+    date: "2022-12-01"
+  - title: "Watt Innovative Talent Scholarship"
+    date: "2022-12-01"
+  - title: "UESTC Outstanding Social Practice Individual"
+    date: "2022-12-01" 
 
 ---
 

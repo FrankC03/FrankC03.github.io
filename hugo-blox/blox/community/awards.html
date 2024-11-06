@@ -24,21 +24,27 @@
 
 <div class="w-full flex flex-col gap-6">
 {{ if $awards }}
-{{ range $idx, $award := sort $awards ".date" "desc" }}
-<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-  
-  <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{{ $award.title | markdownify | emojify }}</h5>
+  {{ $groupedAwards := dict }}
 
-  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
-    {{ if $award.date }}
-      {{ (time $award.date) | time.Format ($block.design.date_format | default "January 2006") }}
-    {{ else }}
-      {{ i18n "present" | default "Present" }}
+  {{ range $award := $awards }}
+    {{ $title := $award.title }}
+    {{ if not (index $groupedAwards $title) }}
+      {{ $groupedAwards = merge $groupedAwards (dict $title (slice)) }}
     {{ end }}
-  </div>
+    {{ $groupedAwards = merge $groupedAwards (dict $title (append (index $groupedAwards $title) $award)) }}
+  {{ end }}
 
-</div>
+  {{ range $title, $awards := $groupedAwards }}
+    <div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{{ $title | markdownify | emojify }}</h5>
+      <ul class="mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        {{ range $award := sort $awards ".date" "desc" }}
+          <li>{{ (time $award.date) | time.Format "January 2006" }}</li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
 {{ end }}
-{{ end }}
+
 </div>
 </div>
