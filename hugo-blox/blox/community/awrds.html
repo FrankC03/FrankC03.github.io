@@ -24,29 +24,25 @@
 
   <div class="w-full flex flex-col gap-6">
     {{ if $awards }}
-      <!-- Group awards by title -->
-      {{ $groupedAwards := dict }}
+      <!-- Identify unique titles -->
+      {{ $uniqueTitles := slice }}
       {{ range $awards }}
-        {{ $awardTitle := .title }}
-        {{ $awardDate := .date }}
-        {{ if not (isset $groupedAwards $awardTitle) }}
-          {{ $groupedAwards = merge $groupedAwards (dict $awardTitle (slice $awardDate)) }}
-        {{ else }}
-          {{ $groupedAwards = merge $groupedAwards (dict $awardTitle (append ($groupedAwards $awardTitle) $awardDate)) }}
+        {{ if not (in $uniqueTitles .title) }}
+          {{ $uniqueTitles = $uniqueTitles | append .title }}
         {{ end }}
       {{ end }}
 
-      <!-- Display each award title with its dates -->
-      {{ range $title, $dates := $groupedAwards }}
+      <!-- Loop through each unique title and display awards with that title -->
+      {{ range $uniqueTitles }}
         <div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           
           <!-- Display the award title -->
-          <h5 class="mb-2 text-base font-semibold tracking-tight text-gray-900 dark:text-white">{{ $title | markdownify | emojify }}</h5>
+          <h5 class="mb-2 text-base font-semibold tracking-tight text-gray-900 dark:text-white">{{ . | markdownify | emojify }}</h5>
 
-          <!-- Display all dates for the award title -->
+          <!-- Display all dates for this award title -->
           <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
-            {{ range $dates }}
-              <p>{{ (time .).Format ($block.design.date_format | default "January 2006") }}</p>
+            {{ range where $awards "title" . }}
+              <p>{{ (time .date).Format ($block.design.date_format | default "January 2006") }}</p>
             {{ end }}
           </div>
 
