@@ -142,7 +142,7 @@ projects:
     date_start: '2022-01-01'
     date_end: '2022-02-01'
     awarder: National University of Singapore
-    icon: ''
+    des: 'Instructor: Prof. Terence Sim'
     summary: |
       - Learned the principles and background of neural networks
       
@@ -151,10 +151,10 @@ projects:
         text: Download Certification
         url: uploads/Assessment report_CUI YIFEI.pdf
   - title: An Intelligent Rover Design
-    url: ''
     date_start: '2024-02-01'
     date_end: '2024-06-01'
-    awarder: Team Leader, UESTC, Glasgow College
+    awarder: UESTC, Glasgow College
+    des: 'Role: Team Leader'
     icon: edx
     summary: |
       - Completed the main program design using STM32CubeIDE, and realized the task execution and switching via polling and external environment interrupt
@@ -163,9 +163,10 @@ projects:
 
       - Used STM32F446RE, McNamum wheel, Openmv Cam, ultrasonic module, DCDC power module, lithium battery and self-designed driven module to realize the hardware welding of the rover, and finally ensure the functions, including line patrol, direction sign and traffic light recognition, pedestrian and obstacle avoidance, wireless switch parking lever
   - title: 'Cross-coupled Cavity Filter Design'
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+    date_start: '2024-02-01'
+    date_end: '2024-06-01'
+    awarder: UESTC, Glasgow College
+    des: 'Electromagnetic Field and Microwave Technology Course project'
     summary: |
       - Applied cross-coupling technology to increase bandwidth, enhance coupling, and provide additional attenuation
 
