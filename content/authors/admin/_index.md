@@ -157,7 +157,6 @@ projects:
     awarder: Team Leader, UESTC, Glasgow College
     icon: edx
     summary: |
-      Learned:
       - Completed the main program design using STM32CubeIDE, and realized the task execution and switching via polling and external environment interrupt
 
       - Realized visual algorithm with OpenMV and its IDE, adopted H-bridge to design the driver module PCB independently, and finished physical verification
