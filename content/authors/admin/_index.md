@@ -137,6 +137,7 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 projects:
   - title: Artificial Intelligence and Machine Learning – Computer Vision 
+    img: 'icon_nus'
     url: ''
     date_start: '2022-01-01'
     date_end: '2022-02-01'

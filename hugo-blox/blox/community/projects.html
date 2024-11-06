@@ -35,11 +35,13 @@
   {{ end}}
 
   
-  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
-    {{ $icon1_image := $icon_nus.Fill "150x150 Center" }}
-    <img src="{{ $icon1_image.RelPermalink }}" alt="{{ $person_page.Title }}"
-         width="{{ $icon1_image.Width }}" height="{{ $icon1_image.Height }}">
-  </div>
+  {{ if eq .img "icon_nus" }}
+    <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+      {{ $icon1_image := $icon_nus.Fill "350x150 Center" }}
+      <img src="{{ $icon1_image.RelPermalink }}" alt="{{ $person_page.Title }}"
+           width="{{ $icon1_image.Width }}" height="{{ $icon1_image.Height }}">
+    </div>
+  {{ end }}
 
   
   {{with .url}}<a href={{.}} target="_blank" rel="noopener">{{end}}
