@@ -12,7 +12,7 @@
 {{ if not $person_page }}
 {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your Award block and create an associated author page if one does not already exist. See https://docs.hugoblox.com/page-builder/#about " $person_page_path }}
 {{ end }}
-{{ $awards := $person_page.Params.awrds }}
+{{ $awards := $person_page.Params.awards }}
 
 <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
 
@@ -22,27 +22,31 @@
 
   {{ with $block.content.text }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
 
-  {{/* Group awards by title */}}
-  {{ $groupedAwards := dict }}
-  {{ range $awards }}
-    {{ $title := .title }}
-    {{ $date := .date }}
-    {{ $dates := index $groupedAwards $title | default (slice) }}
-    {{ $groupedAwards = $groupedAwards | merge (dict $title (append $dates $date)) }}
-  {{ end }}
-
   <div class="w-full flex flex-col gap-6">
-    {{ if gt (len $groupedAwards) 0 }}
+    {{ if $awards }}
+      <!-- Group awards by title -->
+      {{ $groupedAwards := dict }}
+      {{ range $awards }}
+        {{ $awardTitle := .title }}
+        {{ $awardDate := .date }}
+        {{ if not (isset $groupedAwards $awardTitle) }}
+          {{ $groupedAwards = merge $groupedAwards (dict $awardTitle (slice $awardDate)) }}
+        {{ else }}
+          {{ $groupedAwards = merge $groupedAwards (dict $awardTitle (append ($groupedAwards $awardTitle) $awardDate)) }}
+        {{ end }}
+      {{ end }}
+
+      <!-- Display each award title with its dates -->
       {{ range $title, $dates := $groupedAwards }}
         <div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           
-          <!-- Display award title -->
-          <h5 class="mb-2 text-base font-semibold tracking-tight text-gray-900 dark:text-white">{{ $title | markdownify | emojify }}</h5>
+          <!-- Display the award title -->
+          <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{{ $title | markdownify | emojify }}</h5>
 
-          <!-- Display all award dates for this title -->
+          <!-- Display all dates for the award title -->
           <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
             {{ range $dates }}
-              <p>{{ (time .) | time.Format ($block.design.date_format | default "January 2006") }}</p>
+              <p>{{ (time .).Format ($block.design.date_format | default "January 2006") }}</p>
             {{ end }}
           </div>
 
