@@ -36,29 +36,37 @@
 
   
   {{ if eq .img "icon_nus" }}
-    <div class="w-8 h-6 text-gray-500 dark:text-gray-400 mb-3">
+    <div class="w-8 h-8 text-gray-500 dark:text-gray-400 mb-3">
       {{ $icon1_image := $icon_nus.Fill "98x42 Center" }}
       <img src="{{ $icon1_image.RelPermalink }}" alt="{{ $person_page.Title }}"
            width="{{ $icon1_image.Width }}" height="{{ $icon1_image.Height }}">
     </div>
   {{ end }}
 
+  {{ if eq .img "icon_uestc" }}
+    <div class="w-8 h-8 text-gray-500 dark:text-gray-400 mb-3">
+      {{ $icon2_image := $icon_uestc.Fill "42x42 Center" }}
+      <img src="{{ $icon2_image.RelPermalink }}" alt="{{ $person_page.Title }}"
+           width="{{ $icon2_image.Width }}" height="{{ $icon2_image.Height }}">
+    </div>
+  {{ end }}
+
   
   {{with .url}}<a href={{.}} target="_blank" rel="noopener">{{end}}
-    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{{.title | markdownify | emojify}}</h5>
+    <h5 class="mb-3 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{{.title | markdownify | emojify}}</h5>
   {{with .url}}</a>{{end}}
 
   <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
-    {{.awarder}} &#8729;
-    {{.des}} &#8729;
-    {{ if .date_start}}
+    <p>{{.awarder}}</p>
+    <p>{{.des}}</p>
+    <p>{{ if .date_start}}
           {{ (time .date_start) | time.Format ($block.design.date_format | default "January 2006") }} –
         {{ end }}
         {{ if .date_end}}
           {{ (time .date_end) | time.Format ($block.design.date_format | default "January 2006") }}
         {{else}}
           {{ i18n "present" | default "Present" }}
-        {{end}}
+        {{end}}</p>
   </div>
 
   {{with .summary}}
