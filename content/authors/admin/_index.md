@@ -98,11 +98,11 @@ skills:
         description: ''
         percent: 80
         icon: devicon/python
-      - name: RStudio
+      - name: Matlab
         description: ''
-        percent: 100
+        percent: 60
         icon: devicon/rstudio
-      - name: PyTorch
+      - name: Cadence Virtuoso
         description: ''
         percent: 40
         icon: devicon/pytorch
@@ -110,17 +110,17 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
+      - name: Sports
         description: ''
         percent: 100
+        icon: custom/phone-call
+      - name: Reading
+        description: ''
+        percent: 80
         icon: cat
       - name: Photography
         description: ''
-        percent: 80
+        percent: 70
         icon: camera
 
 languages:
