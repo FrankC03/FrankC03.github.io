@@ -101,11 +101,11 @@ skills:
       - name: Matlab
         description: ''
         percent: 60
-        icon: devicon/rstudio
+        icon: custom/matlab
       - name: Cadence Virtuoso
         description: ''
         percent: 40
-        icon: devicon/pytorch
+        icon: custom/ic
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -113,11 +113,11 @@ skills:
       - name: Sports
         description: ''
         percent: 100
-        icon: custom/phone-call
+        icon: custom/sports
       - name: Reading
         description: ''
         percent: 80
-        icon: cat
+        icon: custom/book
       - name: Photography
         description: ''
         percent: 70
