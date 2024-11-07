@@ -12,7 +12,7 @@
 {{ if not $person_page }}
 {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your Skill block and create an associated author page if one does not already exist. See https://docs.hugoblox.com/page-builder/#about " $person_page_path }}
 {{end}}
-{{ $skills := $person_page.Params.skills }}
+{{ $skills := $person_page.Params.sks }}
 {{ $show_show_skill_percentage := $block.design.show_skill_percentage | default true }}
 
 <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
