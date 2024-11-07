@@ -41,7 +41,7 @@ sections:
     content:
       title: Awards
       username: admin
-  - block: skills
+  - block: sks
     content:
       title: Skills & Hobbies
       username: admin

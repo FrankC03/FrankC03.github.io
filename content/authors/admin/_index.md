@@ -91,7 +91,7 @@ research:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
+sks:
   - name: Technical Skills
     items:
       - name: Python
