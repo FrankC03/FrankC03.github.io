@@ -71,9 +71,9 @@ research:
     date_start: 2023-08-01
     date_end: ''
     summary: |2-
-      Quantum computing holds the promise of exponentially faster computation for complex problems, but it faces a significant hurdle: quantum noise. Surface code error correction, a leading approach for handling these errors, becomes computationally intensive for decoding as systems scale. Traditional decoding algorithms, such as Minimum Weight Perfect Matching (MWPM), struggle to balance efficiency and scalability.
+      Quantum computing promises faster solutions to complex problems but is hindered by quantum noise. Surface code error correction, a leading approach for handling these errors, becomes computationally intensive for decoding as systems scale, making traditional decoders like Minimum Weight Perfect Matching (MWPM) less efficient.
 
-      This project focuses on developing a neural network-based surface decoder to address the challenges of scalable quantum error correction. By utilizing machine learning techniques, the decoder aims to provide faster and more accurate error correction, which can significantly improve the reliability of quantum systems as they grow in size and complexity. 
+      This project focuses on developing a neural network-based surface decoder to address the challenges of scalable quantum error correction. By utilizing machine learning techniques, the decoder aims to provide faster and more accurate error correction.
       
       Key responsibilities for this project include:
       - Noise Modeling and Simulation: Develop a comprehensive quantum noise model encompassing measurement errors, data qubit idling errors (simulated using parameters T1 and T2), syndrome extraction circuit errors, and qubit leakage errors. [Completed]
@@ -176,7 +176,7 @@ projects:
       - Designed and simulated using HFSS, and adjusted iteratively according to the results until it meets the design requirements (center frequency: 1.5GHz; Bandwidth: 20MHz; Attenuation: >35dB@ (1520-1540) MHz; Insertion loss: <1dB return loss: >20dB)
 
 awrds:
-  - title: "National Scholarship (4%, 10000￥)"
+  - title: "National Scholarship (Top 4%)"
     date: "2024-11-01"
   - title: "First-class Scholarship for Outstanding Students of UESTC"
     date: "2024-12-01"
@@ -184,13 +184,13 @@ awrds:
     date: "2023-12-01"
   - title: "First-class Scholarship for Outstanding Students of UESTC"
     date: "2022-12-01"
-  - title: "Finalist Prize in the Mathematical Contest In Modeling & Interdisciplinary Contest In Modeling (2%)"
+  - title: "Finalist Prize in the Mathematical Contest In Modeling & Interdisciplinary Contest In Modeling (Top 2%)"
     date: "2023-05-01"
-  - title: "Academic Performance Scholarship, Glasgow College (5%, 30000￥)"
+  - title: "Academic Performance Scholarship, Glasgow College (Top 5%)"
     date: "2024-12-01"
-  - title: "Academic Performance Scholarship, Glasgow College (5%, 30000￥)"
+  - title: "Academic Performance Scholarship, Glasgow College (Top 5%)"
     date: "2023-12-01"
-  - title: "Academic Performance Scholarship, Glasgow College (5%, 30000￥)"
+  - title: "Academic Performance Scholarship, Glasgow College (Top 5%)"
     date: "2022-12-01"
   - title: "Watt Innovative Talent Scholarship"
     date: "2022-12-01"
@@ -199,4 +199,4 @@ awrds:
 
 ---
 
-Electrical Engineering senior with research experience in quantum noise model design under the supervision of Prof. Cheng Wang, actively pursuing a PhD position for 2025.
+Electrical Engineering senior with research experience in quantum noise model design and verification under the supervision of Prof. Cheng Wang, actively pursuing a PhD position for 2025.
