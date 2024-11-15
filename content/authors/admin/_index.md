@@ -85,7 +85,7 @@ research:
         text: Slides
         url: uploads/slides.pdf
     button2:
-        text: Code
+        text: Code (Coming soon)
         url: ''
   
 
