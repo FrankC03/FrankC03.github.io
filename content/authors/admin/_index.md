@@ -78,15 +78,15 @@ research:
       Key responsibilities for this project include:
       - Noise Modeling and Simulation: Develop a comprehensive quantum noise model encompassing measurement errors, data qubit idling errors (simulated using parameters T1 and T2), syndrome extraction circuit errors, and qubit leakage errors. [Completed]
 
-      - Noise Model Benchmarking: Compare our noise model against other common error models by evaluating the similarity between the error pair correlation matrices derived from repetition code experiments and simulations. [Near Completion]
+      - Noise Model Benchmarking: Compare our noise model against other common error models by evaluating the similarity between the error pair correlation matrices, which were derived from repetition code experiments and simulations. [Near Completion]
       
-      - Neural Network Design and Benchmarking: Based on the designed noise model, implement a neural network-based decoder aimed at improving upon traditional MWPM algorithm. [Early Development]
+      - Neural Network Design and Benchmarking: Based on the designed noise model, implement a neural network-based decoder aimed at improving upon traditional MWPM algorithm. [In Progress]
     button:
         text: Slides
         url: uploads/slides.pdf
     button2:
         text: Code
-        url: 'https://example.com/code'
+        url: ''
   
 
 # Skills
