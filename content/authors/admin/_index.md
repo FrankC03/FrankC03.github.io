@@ -199,4 +199,4 @@ awrds:
 
 ---
 
-Electrical Engineering senior with research experience in quantum noise model design and verification under the supervision of Prof. Cheng Wang, actively pursuing a PhD position for 2025.
+Electrical Engineering senior with research experience in quantum noise model design and verification under the supervision of Prof. Cheng Wang.
