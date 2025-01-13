@@ -85,8 +85,8 @@ research:
         text: Slides
         url: uploads/slides.pdf
     button2:
-        text: Code (Coming soon)
-        url: ''
+        text: Code
+        url: 'https://github.com/FrankC03/Quamtum-Noise-Model-Simulation.git'
   
 
 # Skills
